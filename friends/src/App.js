@@ -28,7 +28,7 @@ useEffect(()=> {
   <PrivateRoute  path="/friendslist" component={FriendsList} />
   <PrivateRoute  path="/add" component={AddFriend} />
   <PrivateRoute  path="/logout" component={Logout} />
-  <Route  path="/" component={Login} />
+  <Route  path="/"/>
 </Switch>
 
 </Router>
