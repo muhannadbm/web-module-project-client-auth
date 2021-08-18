@@ -7,6 +7,7 @@ const Logout = (props) => {
         .then(res =>
             console.log(res),
             localStorage.removeItem("token"),
+            props.setIsLoggedin(false),
             props.history.push('/') )
             .catch(e => console.log(e))
     

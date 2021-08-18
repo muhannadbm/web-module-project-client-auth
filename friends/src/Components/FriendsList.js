@@ -11,13 +11,13 @@ const FriendsList = () => {
             setFriends(res.data)
             setisFetching(false)
         })
-    })
+    }, [])
     return <div>
         <h2>My Friend List</h2>
-        <div>
+        <div className="list">
             {isfetching ? <p>fetching...</p> : freinds.map(e => {
                 return (
-                <div> name is : {e.name}, age is: {e.age} email is: {e.email}</div>
+                <div> <span>name is : </span>{e.name}, <span> age is: </span>{e.age}  <span> email is: </span> {e.email}</div>
                 )
             })}
 

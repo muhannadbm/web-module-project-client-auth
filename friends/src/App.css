@@ -6,6 +6,50 @@
   height: 40vmin;
   pointer-events: none;
 }
+.links{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  background: #9eca9e;
+  padding: 1rem;
+  font-weight: bolder;
+}
+.links a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  
+}
+.list span {
+  color: #213c12;
+  text-transform: capitalize;
+  margin-left: 8rem;
+}
+.list{
+  background-color: #e6b7b7;
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+}
+form{
+  background-color: #fb6666;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 10%;
+  padding: 3rem;
+  margin: auto;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bolder;
+}
+button{
+  margin-top: 1rem;
+}
+
+.login{
+  margin-top: 2rem; 
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
